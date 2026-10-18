@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#fff4f5" />
+  <meta name="description" content="Halaman kecil penuh semangat untuk seseorang tersayang yang sedang UTS." />
+  <title>Semangat UTS, Sayang! 💗</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar"><a class="brand" href="#home" aria-label="Kembali ke atas"><span class="brand-heart">♥</span> little reminder</a><span class="top-note">Made with love for u✨</span></header>
+  <main id="home">
+    <section class="hero">
+      <div class="eyebrow"><span class="sparkle">✦</span> A LITTLE NOTE FOR MY FAVORITE PERSON <span class="sparkle">✦</span></div>
+      <h1>Semangat UTS,<br><em>sayang!</em> <span class="title-heart">♡</span></h1>
+      <p class="intro">Aku tahu kamu lagi berjuang dan mungkin capek. Jadi, ini sedikit pelukan virtual buat nemenin kamu hari ini. 🤍</p>
+      <div class="hero-art" aria-label="Ilustrasi hati dan bunga"><div class="sunshine">✦</div><div class="heart-doodle">♥</div><div class="flower flower-left">✿</div><div class="flower flower-right">✿</div><div class="art-caption">you've got this!</div><div class="tiny-star star-a">✧</div><div class="tiny-star star-b">✦</div><div class="tiny-star star-c">✧</div></div>
+      <button class="primary-btn" id="letterBtn">Buka surat kecilku <span>↗</span></button>
+      <div class="scroll-hint">SCROLL PELAN-PELAN <span>↓</span></div>
+    </section>
+
+    <section class="letter-section" id="letter">
+      <div class="section-label">01 — A NOTE FROM ME</div>
+      <article class="letter-card">
+        <div class="letter-top"><span>Untuk kamu yang hebat ♡</span><span class="letter-stamp">WITH LOVE</span></div>
+        <h2>Hai, my LOVE.</h2>
+        <p>Sayanggg, aku cuma mau ingetin. Aku tahu kamu sudah berusaha sejauh ini, meluangkan waktu buat belajar dan mungkin ada saat-saat kamu merasa takut atau ragu sama diri sendiri. 🥹🤍.</p>
+        <p>Kalau nanti soalnya terasa susah, tarik napas dulu, ya. Kerjakan satu per satu. Kamu nggak harus tahu semua jawabannya untuk bisa melakukan yang terbaik.</p>
+        <p>Semangat UTS-nya, sayangkuuu! 🤍 Kerjain ujiannya dengan tenang, jaga kesehatan, jangan lupa makan, minum yang cukup, dan istirahat kalau sudah waktunya. Aku doain semoga semua yang kamu pelajari bisa kamu ingat, semua urusan kamu dilancarkan, dan kamu bisa melewati UTS ini dengan hasil terbaik.. 🫶</p>
+        <p class="letter-sign">Semangat, sayang. Aku selalu dukung kamu!<br><strong>— ur BF ♡</strong></p>
+        <div class="letter-decoration">♡</div>
+      </article>
+    </section>
+
+    <section class="reminders">
+      <div class="section-label">02 — PLEASE REMEMBER</div><h2>Jangan lupa ini, ya.</h2>
+      <div class="reminder-grid">
+        <article class="reminder-card"><span class="card-icon">🌷</span><h3>Kamu sudah berusaha</h3><p>Usahamu berarti. Jangan cuma fokus pada hal yang belum kamu kuasai.</p></article>
+        <article class="reminder-card"><span class="card-icon">☁️</span><h3>Istirahat itu boleh</h3><p>Minum air, makan, dan tidur cukup juga bagian dari persiapan ujian.</p></article>
+        <article class="reminder-card"><span class="card-icon">💌</span><h3>Kamu nggak sendirian</h3><p>Kalau lagi panik atau lelah, kamu boleh cerita. Aku siap dengerin.</p></article>
+      </div>
+    </section>
+
+    <section class="mood-section">
+      <div class="section-label">03 — A TINY BOOST</div><h2>Lagi butuh semangat yang mana?</h2><p class="section-subtitle">Pilih satu, siapa tahu kamu butuh mendengar ini sekarang. ♡</p>
+      <div class="mood-buttons" role="group" aria-label="Pilih penyemangat"><button class="mood-btn active" data-mood="nervous">😵‍💫 Lagi gugup</button><button class="mood-btn" data-mood="tired">🥹 Lagi capek</button><button class="mood-btn" data-mood="ready">😎 Siap tempur</button></div>
+      <div class="mood-message" id="moodMessage" aria-live="polite"><span class="quote-mark">“</span><p>Kamu nggak harus menghilangkan rasa gugup untuk bisa mengerjakan ujian dengan baik. Tarik napas, percaya sama persiapanmu, lalu mulai dari satu soal dulu.</p><span class="message-heart">♡</span></div>
+      <button class="secondary-btn" id="surpriseBtn">Kasih aku kejutan kecil ✨</button>
+      <p class="surprise-message" id="surpriseMessage" aria-live="polite"></p>
+    </section>
+
+    <section class="final-section"><div class="final-heart">♥</div><h2>Do your best,<br><em>then let yourself rest.</em></h2><p>Apa pun hasilnya nanti, jangan lupa kalau ada seseorang yang bangga banget sama kamu.</p><div class="final-note">sending you the biggest virtual hug <span>♡</span></div><button class="primary-btn" id="hugBtn">Kirim peluk virtual 🤗</button><div class="hug-result" id="hugResult" aria-live="polite"></div></section>
+  </main>
+  <footer>made with <span>♥</span> and lots of love · semoga UTS-nya lancar!</footer>
+  <script src="script.js"></script>
+</body>
+</html>
